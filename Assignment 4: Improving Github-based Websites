@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | IT Ethics Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <h1 class="logo">IT Ethics Hub</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="ethics.html">Ethics</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Building Better Technology Responsibly</h2>
+      <p>
+        Technology affects almost every part of modern life, which means IT professionals
+        have a responsibility to create systems that are safe, fair, secure, and useful.
+        This website highlights why ethics matters in computing and how professionals can
+        apply ethical thinking in real-world situations.
+      </p>
+      <a href="ethics.html" class="btn">Explore Ethics Topics</a>
+    </div>
+  </section>
+
+  <main class="container">
+    <section class="card-grid">
+      <div class="card">
+        <h3>Why IT Ethics Matters</h3>
+        <p>
+          Ethical decision-making helps developers and IT professionals avoid harm, protect
+          user privacy, improve security, and build systems that serve society responsibly.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Professional Responsibility</h3>
+        <p>
+          Computing professionals are expected to act honestly, reduce risk, and consider
+          how technology affects individuals, organizations, and the public.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Topics Covered</h3>
+        <p>
+          This site includes information about developer responsibility, ethical concerns
+          in AI and data science, privacy, fairness, and professional conduct.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 IT Ethics Hub | Created for Assignment 4</p>
+    </div>
+  </footer>
+</body>
+</html>
