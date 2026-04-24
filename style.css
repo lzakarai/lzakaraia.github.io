@@ -1,16 +1,91 @@
 body {
-  font-family: Arial;
-  background-color: #f4f4f4;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+  color: #1f2937;
+}
+
+header {
+  background: linear-gradient(135deg, #111827, #374151);
+  color: yellow;
   text-align: center;
+  padding: 40px 20px;
 }
 
-h1 {
-  background-color: black;
-  color: white;
-  padding: 15px;
+header h1 {
+  margin: 0;
+  font-size: 42px;
 }
 
-a {
-  margin: 10px;
+header p {
+  font-size: 18px;
+  color: #d1d5db;
+}
+
+nav {
+  margin-top: 25px;
+}
+
+nav a {
+  background-color: white;
+  color: #111827;
+  text-decoration: none;
+  padding: 10px 18px;
+  margin: 6px;
+  border-radius: 25px;
   font-weight: bold;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #93c5fd;
+  color: #111827;
+}
+
+main {
+  max-width: 950px;
+  margin: 35px auto;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  background-color: white;
+  flex: 1;
+  min-width: 220px;
+  padding: 20px;
+  border-radius: 15px;
+  border-top: 6px solid #2563eb;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+}
+
+h2, h3 {
+  color: #1e3a8a;
+}
+
+.references {
+  background-color: #e0f2fe;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+footer {
+  text-align: center;
+  background-color: #111827;
+  color: white;
+  padding: 18px;
+  margin-top: 40px;
 }
